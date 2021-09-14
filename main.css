@@ -1,0 +1,126 @@
+@import url(font.css);
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    list-style: none;
+    font-family: 'Lalezar';
+    direction: rtl;
+}
+a{
+    text-decoration: none;
+}
+section.sec{
+    width: 100%;
+    padding: 14px;
+    background-color: rgb(0, 81, 255);
+}
+/* top Edit */
+section.top{
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+section.top ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section.top ul li{
+    padding: 0 25px;
+}
+section.top ul li a{
+    font-size: 20px;
+    color: whitesmoke;
+    transition: .4s;
+}
+section.top ul li a:hover{
+    color: rgba(0, 0, 0, 0.452);
+}
+/*End top Edit */
+
+/* main Edit */
+section.main{
+    width: 100%;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+section.main div.txtBx{
+    width: 50%;
+    color: rgba(255, 255, 255, 0.897);
+}
+section.main div.txtBx h3{
+    font-size: 45px;
+}
+section.main div.txtBx h1{
+    font-size: 50px;
+}
+section.main div.txtBx p{
+    width: 85%;
+    font-size: 14px;
+    text-align: justify;
+    padding: 10px;
+}
+section.main div.txtBx button{
+    border: none;
+    border-radius: 5px;
+    font-weight: 400;
+    padding: 10px 40px;
+    margin-top: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+    transition: .3s;
+    color: rgba(0, 0, 0, 0.726);
+}
+section.main div.txtBx button:hover{
+    background-color: #33b4dbce;
+    color: rgba(255, 255, 255, 0.815);
+}
+section.main div.picBx{
+    width: 40%;
+    display: flex;
+    justify-content: flex-end;
+}
+section.main div.picBx img{
+    height: 500px;
+}
+section.main div.sosh{
+    width: 10%;
+    display: flex;
+    flex-flow: column;
+    justify-content: center;
+    align-items: flex-end;
+}
+section.main div.sosh a{
+    margin: 10px 5px;
+    fill: white;
+    transition: .3s;
+}
+section.main div.sosh a:hover{
+    transform: scale(1.3);
+}
+
+/*End main Edit */
+
+/* foot Edit */
+section.foot{
+    display: flex;
+    position: absolute;
+    bottom: 0;
+    right: 550px;
+}
+section.foot div img{
+    cursor: pointer;
+    width: 50px;
+    height: 100px;
+    margin: 0 25px;
+    transition: .5s;
+}
+section.foot div img:hover{
+    transform: translateY(-20px);
+}
+/*End fooot Edit */
